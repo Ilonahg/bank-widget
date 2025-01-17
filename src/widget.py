@@ -1,29 +1,51 @@
-from src.masks import get_mask_card_number, get_mask_account
+import re
 
-def mask_account_card(data: str) -> str:
-    """
-    Masks account or card number based on its type.
 
-    :param data: Input string in the format 'Type Number' (e.g., 'Visa Platinum 7000792289606361').
-    :return: Masked string with appropriate masking.
+def mask_account_card(card_info: str) -> str:
     """
-    if data.startswith("Счет"):
-        number = data.split(" ", 1)[1]
-        masked = get_mask_account(int(number))
-        return f"Счет {masked}"
+    Функция для маскировки номера карты или счета.
+    Принимает строку с типом карты и номером карты или счета.
+
+    Возвращает строку с замаскированным номером.
+    """
+    # Регулярное выражение для разделения строки на тип карты и номер
+    match = re.match(r"([A-Za-zА-Яа-я ]+) (\d+)", card_info)
+
+    if not match:
+        return "Неверный тип карты или счета"
+
+    card_type = match.group(1).strip()  # Тип карты (например, "Visa Platinum")
+    number = match.group(2)  # Номер карты или счета
+
+    # Маскировка для карт
+    if card_type in ['Visa', 'MasterCard', 'Maestro', 'Visa Platinum', 'Visa Classic', 'MasterCard World']:
+        masked_number = f"{number[:4]} {number[4:6]}** **** {number[-4:]}"
+    # Маскировка для счета
+    elif card_type == 'Счет':
+        masked_number = f"**{number[-4:]}"
     else:
-        type_name, number = data.rsplit(" ", 1)
-        masked = get_mask_card_number(int(number))
-        return f"{type_name} {masked}"
+        return "Неверный тип карты или счета"
+
+    return f"{card_type} {masked_number}"
 
 
-def get_date(date_string: str) -> str:
+from datetime import datetime
+
+
+def get_date(date_str: str) -> str:
     """
-    Converts a date string from ISO format to DD.MM.YYYY format.
+    Функция для преобразования строки с датой из формата
+    "YYYY-MM-DDTHH:MM:SS.mmmmmm" в формат "DD.MM.YYYY".
 
-    :param date_string: ISO date string (e.g., '2024-03-11T02:26:18.671407').
-    :return: Date string in DD.MM.YYYY format (e.g., '11.03.2024').
+    Параметры:
+    date_str (str): строка с датой в формате "YYYY-MM-DDTHH:MM:SS.mmmmmm".
+
+    Возвращает:
+    str: дата в формате "DD.MM.YYYY".
     """
-    from datetime import datetime
-    date_obj = datetime.fromisoformat(date_string)
-    return date_obj.strftime("%d.%m.%Y")
+    # Преобразуем строку в объект datetime
+    date_obj = datetime.fromisoformat(date_str.split('.')[0])  # игнорируем миллисекунды
+
+    # Возвращаем дату в нужном формате
+    return date_obj.strftime('%d.%m.%Y')
+
