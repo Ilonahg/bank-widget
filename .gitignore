@@ -1,7 +1,8 @@
-# Исключить временные и системные файлы
 __pycache__/
-*.py[cod]
+.venv/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
 .idea/
-.vscode/
-venv/
-
+*.log
