@@ -1,4 +1,5 @@
 import re
+from datetime import datetime
 
 
 def mask_account_card(card_info: str) -> str:
@@ -29,9 +30,6 @@ def mask_account_card(card_info: str) -> str:
     return f"{card_type} {masked_number}"
 
 
-from datetime import datetime
-
-
 def get_date(date_str: str) -> str:
     """
     Функция для преобразования строки с датой из формата
@@ -48,4 +46,3 @@ def get_date(date_str: str) -> str:
 
     # Возвращаем дату в нужном формате
     return date_obj.strftime('%d.%m.%Y')
-
