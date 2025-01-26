@@ -34,3 +34,37 @@ def get_mask_account(account_number: str) -> str:
 
     # Маска для обычных номеров счета
     return f"******{account_number[-4:]}"
+
+
+import logging
+
+# Создаем объект логгера для модуля masks
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+# Обработчик для записи логов в файл logs/masks.log
+file_handler = logging.FileHandler('logs/masks.log')
+file_handler.setLevel(logging.DEBUG)
+
+# Форматирование логов
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+# Добавляем обработчик в логгер
+logger.addHandler(file_handler)
+
+
+def mask_card_number(card_number: str) -> str:
+    """
+    Маскирует номер карты, оставляя видимыми только последние 4 цифры.
+
+    :param card_number: Номер карты (строка)
+    :return: Маскированный номер карты
+    """
+    if not card_number.isdigit() or len(card_number) < 4:
+        logger.error(f'Некорректный номер карты: {card_number}')
+        return "Invalid card number"
+
+    masked = '*' * (len(card_number) - 4) + card_number[-4:]
+    logger.info(f'Карта успешно замаскирована: {masked}')
+    return masked
