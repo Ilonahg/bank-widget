@@ -1,0 +1,4 @@
+2025-01-27 00:31:12,662 - src.file_processing.csv_handler - DEBUG - Попытка открыть файл: dummy_path.csv
+2025-01-27 00:31:12,663 - src.file_processing.csv_handler - INFO - Успешно прочитано 2 записей из файла dummy_path.csv
+2025-01-27 00:31:16,180 - src.file_processing.csv_handler - DEBUG - Попытка открыть файл: dummy_path.csv
+2025-01-27 00:31:16,181 - src.file_processing.csv_handler - INFO - Успешно прочитано 2 записей из файла dummy_path.csv

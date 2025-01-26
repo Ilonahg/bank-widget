@@ -1,0 +1,10 @@
+2025-01-26 23:58:18,010 - src.utils - DEBUG - Попытка открыть файл: data/operations.json
+2025-01-26 23:58:18,014 - src.utils - INFO - Файл data/operations.json успешно прочитан, загружено 101 записей.
+2025-01-26 23:58:18,022 - src.utils - DEBUG - Попытка открыть файл: data/nonexistent.json
+2025-01-26 23:58:18,024 - src.utils - ERROR - Файл data/nonexistent.json не найден.
+2025-01-26 23:58:18,050 - src.utils - DEBUG - Попытка открыть файл: C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-1\test_read_json_file_empty0\empty.json
+2025-01-26 23:58:18,052 - src.utils - ERROR - Ошибка декодирования JSON в файле C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-1\test_read_json_file_empty0\empty.json.
+2025-01-26 23:58:18,058 - src.utils - DEBUG - Попытка открыть файл: data/operations.json
+2025-01-26 23:58:18,062 - src.utils - INFO - Файл data/operations.json успешно прочитан, загружено 101 записей.
+2025-01-26 23:58:18,070 - src.utils - DEBUG - Попытка открыть файл: data/nonexistent.json
+2025-01-26 23:58:18,072 - src.utils - ERROR - Файл data/nonexistent.json не найден.

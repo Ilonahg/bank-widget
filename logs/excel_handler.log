@@ -1,0 +1,4 @@
+2025-01-27 00:31:12,673 - src.file_processing.excel_handler - DEBUG - Попытка открыть файл: dummy_path.xlsx
+2025-01-27 00:31:12,679 - src.file_processing.excel_handler - INFO - Успешно прочитано 2 записей из файла dummy_path.xlsx
+2025-01-27 00:31:16,189 - src.file_processing.excel_handler - DEBUG - Попытка открыть файл: dummy_path.xlsx
+2025-01-27 00:31:16,193 - src.file_processing.excel_handler - INFO - Успешно прочитано 2 записей из файла dummy_path.xlsx
