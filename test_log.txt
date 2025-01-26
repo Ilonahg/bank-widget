@@ -252,3 +252,21 @@
 2025-01-26 22:27:44,088 - divide error: division by zero. Inputs: (1, 0), {}
 2025-01-26 22:27:44,097 - Calling multiply with arguments: (3, 4), {}
 2025-01-26 22:27:44,099 - multiply ok: 12
+2025-01-26 23:58:17,915 - Calling add with arguments: (1, 2), {}
+2025-01-26 23:58:17,917 - add ok: 3
+2025-01-26 23:58:17,925 - Calling divide with arguments: (1, 0), {}
+2025-01-26 23:58:17,926 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 23:58:17,931 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 23:58:17,932 - multiply ok: 12
+2025-01-26 23:58:17,989 - Карта успешно замаскирована: ************5678
+2025-01-26 23:58:17,995 - Некорректный номер карты: 123
+2025-01-26 23:58:18,010 - Попытка открыть файл: data/operations.json
+2025-01-26 23:58:18,014 - Файл data/operations.json успешно прочитан, загружено 101 записей.
+2025-01-26 23:58:18,022 - Попытка открыть файл: data/nonexistent.json
+2025-01-26 23:58:18,024 - Файл data/nonexistent.json не найден.
+2025-01-26 23:58:18,050 - Попытка открыть файл: C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-1\test_read_json_file_empty0\empty.json
+2025-01-26 23:58:18,052 - Ошибка декодирования JSON в файле C:\Users\User\AppData\Local\Temp\pytest-of-User\pytest-1\test_read_json_file_empty0\empty.json.
+2025-01-26 23:58:18,058 - Попытка открыть файл: data/operations.json
+2025-01-26 23:58:18,062 - Файл data/operations.json успешно прочитан, загружено 101 записей.
+2025-01-26 23:58:18,070 - Попытка открыть файл: data/nonexistent.json
+2025-01-26 23:58:18,072 - Файл data/nonexistent.json не найден.
