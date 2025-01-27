@@ -1,5 +1,6 @@
-from typing import List, Dict
 from datetime import datetime
+from typing import Dict, List
+
 
 def filter_by_state(data: List[Dict], state: str = "EXECUTED") -> List[Dict]:
     """
@@ -15,6 +16,7 @@ def filter_by_state(data: List[Dict], state: str = "EXECUTED") -> List[Dict]:
     if not isinstance(data, list):
         raise ValueError("The 'data' argument must be a list of dictionaries.")
     return [item for item in data if isinstance(item, dict) and item.get("state") == state]
+
 
 def sort_by_date(data: List[Dict], descending: bool = True) -> List[Dict]:
     """
