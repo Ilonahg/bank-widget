@@ -1,1 +1,1 @@
-from .processing import filter_by_state, sort_by_date
+from .processing import count_transactions_by_category, filter_by_state, find_transactions_by_description, sort_by_date
