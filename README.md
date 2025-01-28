@@ -29,3 +29,21 @@ pytest --cov=src --cov-report=html
    usd_transactions = filter_by_currency(transactions, "USD")
    for transaction in usd_transactions:
        print(transaction)
+# Проект для обработки транзакций и конвертации валют
+
+## Установка зависимостей
+
+```bash
+pip install -r requirements.txt
+
+
+# Программа для работы с банковскими транзакциями
+
+## Функциональность
+- Фильтрация транзакций по описанию.
+- Подсчёт количества операций по категориям.
+
+## Установка
+1. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt

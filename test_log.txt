@@ -46,3 +46,215 @@
 2025-01-18 11:00:59,197 - divide error: division by zero. Inputs: (1, 0), {}
 2025-01-18 11:00:59,201 - Calling multiply with arguments: (3, 4), {}
 2025-01-18 11:00:59,202 - multiply ok: 12
+2025-01-18 11:44:15,146 - Calling add with arguments: (1, 2), {}
+2025-01-18 11:44:15,147 - add ok: 3
+2025-01-18 11:44:15,154 - Calling divide with arguments: (1, 0), {}
+2025-01-18 11:44:15,154 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 11:44:15,158 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 11:44:15,158 - multiply ok: 12
+2025-01-25 19:55:03,375 - Calling add with arguments: (1, 2), {}
+2025-01-25 19:55:03,377 - add ok: 3
+2025-01-25 19:55:03,383 - Calling divide with arguments: (1, 0), {}
+2025-01-25 19:55:03,384 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 19:55:03,389 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 19:55:03,390 - multiply ok: 12
+2025-01-25 20:20:41,412 - Calling add with arguments: (1, 2), {}
+2025-01-25 20:20:41,414 - add ok: 3
+2025-01-25 20:20:41,422 - Calling divide with arguments: (1, 0), {}
+2025-01-25 20:20:41,422 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 20:20:41,428 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 20:20:41,429 - multiply ok: 12
+2025-01-25 20:32:58,521 - Calling add with arguments: (1, 2), {}
+2025-01-25 20:32:58,524 - add ok: 3
+2025-01-25 20:32:58,534 - Calling divide with arguments: (1, 0), {}
+2025-01-25 20:32:58,535 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 20:32:58,540 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 20:32:58,541 - multiply ok: 12
+2025-01-25 20:35:34,086 - Calling add with arguments: (1, 2), {}
+2025-01-25 20:35:34,089 - add ok: 3
+2025-01-25 20:35:34,100 - Calling divide with arguments: (1, 0), {}
+2025-01-25 20:35:34,102 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 20:35:34,109 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 20:35:34,110 - multiply ok: 12
+2025-01-25 22:52:12,451 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 22:52:12,770 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 22:52:13,225 - Calling add with arguments: (1, 2), {}
+2025-01-25 22:52:13,226 - add ok: 3
+2025-01-25 22:52:13,232 - Calling divide with arguments: (1, 0), {}
+2025-01-25 22:52:13,233 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 22:52:13,239 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 22:52:13,239 - multiply ok: 12
+2025-01-25 22:52:45,934 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 22:52:46,241 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 22:52:46,416 - Calling add with arguments: (1, 2), {}
+2025-01-25 22:52:46,416 - add ok: 3
+2025-01-25 22:52:46,421 - Calling divide with arguments: (1, 0), {}
+2025-01-25 22:52:46,421 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 22:52:46,424 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 22:52:46,425 - multiply ok: 12
+2025-01-25 22:56:17,799 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 22:56:18,112 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 22:56:18,302 - Calling add with arguments: (1, 2), {}
+2025-01-25 22:56:18,303 - add ok: 3
+2025-01-25 22:56:18,308 - Calling divide with arguments: (1, 0), {}
+2025-01-25 22:56:18,308 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 22:56:18,313 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 22:56:18,314 - multiply ok: 12
+2025-01-25 23:39:13,609 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 23:39:14,167 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 23:39:14,413 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:39:14,413 - add ok: 3
+2025-01-25 23:39:14,418 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:39:14,419 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:39:14,424 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:39:14,425 - multiply ok: 12
+2025-01-25 23:41:27,107 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 23:41:27,593 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 23:41:28,101 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:41:28,102 - add ok: 3
+2025-01-25 23:41:28,108 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:41:28,109 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:41:28,115 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:41:28,116 - multiply ok: 12
+2025-01-25 23:43:59,852 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 23:44:00,361 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 23:44:00,632 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:44:00,633 - add ok: 3
+2025-01-25 23:44:00,638 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:44:00,639 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:44:00,643 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:44:00,644 - multiply ok: 12
+2025-01-25 23:45:33,921 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 23:45:34,258 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 23:45:34,502 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:45:34,503 - add ok: 3
+2025-01-25 23:45:34,508 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:45:34,509 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:45:34,514 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:45:34,515 - multiply ok: 12
+2025-01-25 23:47:12,534 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 23:47:12,865 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 23:47:13,359 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:47:13,360 - add ok: 3
+2025-01-25 23:47:13,365 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:47:13,365 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:47:13,370 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:47:13,371 - multiply ok: 12
+2025-01-25 23:49:10,281 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 23:49:10,620 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 23:49:10,860 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:49:10,860 - add ok: 3
+2025-01-25 23:49:10,865 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:49:10,866 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:49:10,871 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:49:10,872 - multiply ok: 12
+2025-01-25 23:50:44,753 - Starting new HTTPS connection (1): api.exchangeratesapi.io:443
+2025-01-25 23:50:45,232 - https://api.exchangeratesapi.io:443 "GET /latest?base=GBP&symbols=RUB&access_key=None HTTP/1.1" 200 None
+2025-01-25 23:50:45,462 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:50:45,463 - add ok: 3
+2025-01-25 23:50:45,468 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:50:45,468 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:50:45,473 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:50:45,473 - multiply ok: 12
+2025-01-25 23:52:38,851 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:52:38,852 - add ok: 3
+2025-01-25 23:52:38,858 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:52:38,859 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:52:38,864 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:52:38,864 - multiply ok: 12
+2025-01-25 23:54:27,422 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:54:27,423 - add ok: 3
+2025-01-25 23:54:27,429 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:54:27,429 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:54:27,434 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:54:27,434 - multiply ok: 12
+2025-01-25 23:55:03,910 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:55:03,912 - add ok: 3
+2025-01-25 23:55:03,917 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:55:03,918 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:55:03,923 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:55:03,924 - multiply ok: 12
+2025-01-25 23:56:31,664 - Calling add with arguments: (1, 2), {}
+2025-01-25 23:56:31,665 - add ok: 3
+2025-01-25 23:56:31,671 - Calling divide with arguments: (1, 0), {}
+2025-01-25 23:56:31,671 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-25 23:56:31,676 - Calling multiply with arguments: (3, 4), {}
+2025-01-25 23:56:31,677 - multiply ok: 12
+2025-01-26 00:01:54,461 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:01:54,463 - add ok: 3
+2025-01-26 00:01:54,470 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:01:54,471 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:01:54,476 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:01:54,477 - multiply ok: 12
+2025-01-26 00:04:18,229 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:04:18,230 - add ok: 3
+2025-01-26 00:04:18,235 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:04:18,236 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:04:18,241 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:04:18,242 - multiply ok: 12
+2025-01-26 00:06:04,032 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:06:04,033 - add ok: 3
+2025-01-26 00:06:04,039 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:06:04,039 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:06:04,045 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:06:04,045 - multiply ok: 12
+2025-01-26 00:16:15,088 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:16:15,090 - add ok: 3
+2025-01-26 00:16:15,094 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:16:15,095 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:16:15,100 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:16:15,101 - multiply ok: 12
+2025-01-26 00:18:12,055 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:18:12,057 - add ok: 3
+2025-01-26 00:18:12,064 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:18:12,065 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:18:12,072 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:18:12,073 - multiply ok: 12
+2025-01-26 00:19:36,204 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:19:36,205 - add ok: 3
+2025-01-26 00:19:36,210 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:19:36,211 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:19:36,216 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:19:36,216 - multiply ok: 12
+2025-01-26 00:21:56,251 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:21:56,252 - add ok: 3
+2025-01-26 00:21:56,257 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:21:56,258 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:21:56,263 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:21:56,263 - multiply ok: 12
+2025-01-26 00:23:57,147 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:23:57,148 - add ok: 3
+2025-01-26 00:23:57,154 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:23:57,155 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:23:57,159 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:23:57,160 - multiply ok: 12
+2025-01-26 00:25:40,636 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:25:40,638 - add ok: 3
+2025-01-26 00:25:40,645 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:25:40,646 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:25:40,650 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:25:40,651 - multiply ok: 12
+2025-01-26 00:26:55,940 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:26:55,941 - add ok: 3
+2025-01-26 00:26:55,946 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:26:55,947 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:26:55,952 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:26:55,953 - multiply ok: 12
+2025-01-26 00:28:15,205 - Calling add with arguments: (1, 2), {}
+2025-01-26 00:28:15,207 - add ok: 3
+2025-01-26 00:28:15,212 - Calling divide with arguments: (1, 0), {}
+2025-01-26 00:28:15,213 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 00:28:15,219 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 00:28:15,219 - multiply ok: 12
+2025-01-26 22:27:44,066 - Calling add with arguments: (1, 2), {}
+2025-01-26 22:27:44,072 - add ok: 3
+2025-01-26 22:27:44,087 - Calling divide with arguments: (1, 0), {}
+2025-01-26 22:27:44,088 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-26 22:27:44,097 - Calling multiply with arguments: (3, 4), {}
+2025-01-26 22:27:44,099 - multiply ok: 12
+2025-01-28 15:19:36,629 - Calling add with arguments: (1, 2), {}
+2025-01-28 15:19:36,631 - add ok: 3
+2025-01-28 15:19:36,637 - Calling divide with arguments: (1, 0), {}
+2025-01-28 15:19:36,637 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-28 15:19:36,642 - Calling multiply with arguments: (3, 4), {}
+2025-01-28 15:19:36,642 - multiply ok: 12
