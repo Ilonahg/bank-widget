@@ -36,3 +36,4 @@ class Category:
 
         Category.category_count += 1  # Увеличиваем количество категорий
         Category.product_count += len(products)  # Увеличиваем общее количество товаров
+# Test change
