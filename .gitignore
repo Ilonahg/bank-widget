@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 .idea/
+=======
+__pycache__/
+.venv/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+*.log
+>>>>>>> e282ce17a285f5863f50756bb0b86c30e1984b62

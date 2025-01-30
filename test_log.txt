@@ -1,0 +1,48 @@
+2025-01-18 02:53:51,829 - Calling add with arguments: (1, 2), {}
+2025-01-18 02:53:51,830 - add ok: 3
+2025-01-18 02:53:51,836 - Calling divide with arguments: (1, 0), {}
+2025-01-18 02:53:51,837 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 02:53:51,840 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 02:53:51,842 - multiply ok: 12
+2025-01-18 02:57:47,987 - Calling add with arguments: (1, 2), {}
+2025-01-18 02:57:47,990 - add ok: 3
+2025-01-18 02:57:48,001 - Calling divide with arguments: (1, 0), {}
+2025-01-18 02:57:48,001 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 02:57:48,008 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 02:57:48,009 - multiply ok: 12
+2025-01-18 03:01:26,694 - Calling add with arguments: (1, 2), {}
+2025-01-18 03:01:26,695 - add ok: 3
+2025-01-18 03:01:26,699 - Calling divide with arguments: (1, 0), {}
+2025-01-18 03:01:26,699 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 03:01:26,703 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 03:01:26,703 - multiply ok: 12
+2025-01-18 03:01:35,338 - Calling add with arguments: (1, 2), {}
+2025-01-18 03:01:35,342 - add ok: 3
+2025-01-18 03:01:35,358 - Calling divide with arguments: (1, 0), {}
+2025-01-18 03:01:35,359 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 03:01:35,368 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 03:01:35,369 - multiply ok: 12
+2025-01-18 10:44:33,931 - Calling add with arguments: (1, 2), {}
+2025-01-18 10:44:33,933 - add ok: 3
+2025-01-18 10:44:33,941 - Calling divide with arguments: (1, 0), {}
+2025-01-18 10:44:33,941 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 10:44:33,946 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 10:44:33,946 - multiply ok: 12
+2025-01-18 10:45:00,249 - Calling add with arguments: (1, 2), {}
+2025-01-18 10:45:00,251 - add ok: 3
+2025-01-18 10:45:00,259 - Calling divide with arguments: (1, 0), {}
+2025-01-18 10:45:00,260 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 10:45:00,266 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 10:45:00,267 - multiply ok: 12
+2025-01-18 10:51:14,884 - Calling add with arguments: (1, 2), {}
+2025-01-18 10:51:14,885 - add ok: 3
+2025-01-18 10:51:14,891 - Calling divide with arguments: (1, 0), {}
+2025-01-18 10:51:14,891 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 10:51:14,895 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 10:51:14,896 - multiply ok: 12
+2025-01-18 11:00:59,190 - Calling add with arguments: (1, 2), {}
+2025-01-18 11:00:59,191 - add ok: 3
+2025-01-18 11:00:59,196 - Calling divide with arguments: (1, 0), {}
+2025-01-18 11:00:59,197 - divide error: division by zero. Inputs: (1, 0), {}
+2025-01-18 11:00:59,201 - Calling multiply with arguments: (3, 4), {}
+2025-01-18 11:00:59,202 - multiply ok: 12

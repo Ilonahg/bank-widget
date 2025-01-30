@@ -1,5 +1,9 @@
 [tool.poetry]
+<<<<<<< HEAD
 name = "pythonproject27"
+=======
+name = "project-1"
+>>>>>>> e282ce17a285f5863f50756bb0b86c30e1984b62
 version = "0.1.0"
 description = ""
 authors = ["ilonahg <gogilchyn2005ilona@gmail.com>"]
@@ -9,6 +13,44 @@ readme = "README.md"
 python = "^3.13"
 
 
+<<<<<<< HEAD
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+=======
+[tool.poetry.group.lint.dependencies]
+flake8 = "^7.1.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+mypy = "^1.14.1"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.14.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
+exclude = '''
+/(\.git|__pycache__|\.venv)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 119
+known_third_party = ["requests", "flask"]
+known_first_party = ["src"]
+combine_as_imports = false
+
+
+[tool.mypy]
+disallow_untyped_defs = true
+warn_return_any = true
+exclude = '''
+/venv/
+'''
+
+>>>>>>> e282ce17a285f5863f50756bb0b86c30e1984b62
