@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+# Магазин товаров
+
+Приложение для управления товарами и категориями.
+
+## Установка
+
+1. Установите зависимости:
+   ```bash
+   poetry install
+=======
 # bank-widget
 # Banking Widget
 
@@ -29,3 +40,4 @@ pytest --cov=src --cov-report=html
    usd_transactions = filter_by_currency(transactions, "USD")
    for transaction in usd_transactions:
        print(transaction)
+>>>>>>> e282ce17a285f5863f50756bb0b86c30e1984b62
